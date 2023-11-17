@@ -6,6 +6,7 @@ from __future__ import absolute_import, division, print_function
 
 INCLUDES = """
 #include <openssl/opensslv.h>
+#include <openssl/crypto.h>
 """
 
 TYPES = """
